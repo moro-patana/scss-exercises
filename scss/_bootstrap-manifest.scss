@@ -1,8 +1,6 @@
 
-
  @import "../node_modules/bootstrap/scss/functions";
- @import "bootstrap-custom.scss";
-//  @import "bootstrap-defaults.scss";
+ @import "../scss/variables/bootstrap-custom";
   @import "../node_modules/bootstrap/scss/mixins";
   @import "../node_modules/bootstrap/scss/root";
   @import "../node_modules/bootstrap/scss/reboot";
