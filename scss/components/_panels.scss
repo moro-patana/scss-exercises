@@ -1,0 +1,14 @@
+body {
+  background-color: $body-background-color;
+}
+article {
+  padding: $panel-padding;
+  // display: $panel-display;
+  // grid-template-columns: $panel-grid-columns;
+  // grid-template-rows: $panel-grid-row;
+  // row-gap: $panel-row-gap;
+}
+.panel {
+  width: $panel-width;
+  height: $panel-height;
+}
