@@ -86,7 +86,10 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "black":      $black,
+    "red":        $red,
+    "white":      $white
   ),
   $theme-colors
 );
@@ -848,8 +851,8 @@ $card-img-overlay-padding:          1.25rem !default;
 $card-group-margin:                 $grid-gutter-width / 2 !default;
 $card-deck-margin:                  $card-group-margin !default;
 
-$card-columns-count:                3 !default;
-$card-columns-gap:                  1.25rem !default;
+$card-columns-count:                1;
+$card-columns-gap:                  1.25rem;
 $card-columns-margin:               $card-spacer-y !default;
 
 
@@ -1145,3 +1148,12 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+// Custom panel
+$panel-padding: 2rem !default;
+$body-background-color: gray !default;
+$panel-display: grid !default;
+$panel-grid-columns: 1fr !default;
+$panel-grid-row: repeat(3, 1fr) !default;
+$panel-row-gap: 1rem !default;
+$panel-width: 200px !default;
+$panel-height: 60px !default;
